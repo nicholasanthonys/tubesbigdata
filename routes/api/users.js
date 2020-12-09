@@ -45,7 +45,7 @@ router.post(
           r: 'pg',
           d: 'mm'
         }),
-        { forceHttps: true }
+        { forceHttp: true }
       );
 
       user = new User({
